@@ -1,0 +1,69 @@
+# Credit Scoring Model using Machine Learning
+
+## Objective
+
+The objective of this project is to predict whether a customer has a good or bad credit risk using historical financial data. This helps banks and financial institutions make better loan approval decisions.
+
+## Dataset
+
+The project uses the German Credit Dataset.
+
+The dataset contains 1000 records and 21 columns.
+
+The target variable is:
+
+- Credit_Risk
+  - 1 = Good Credit Risk
+  - 0 = Bad Credit Risk
+
+## Technologies Used
+
+- Python
+- Pandas
+- Matplotlib
+- Scikit-learn
+
+## Machine Learning Algorithms
+
+- Logistic Regression
+- Random Forest Classifier
+
+## Project Workflow
+
+1. Load the dataset.
+2. Rename the column names.
+3. Explore the dataset.
+4. Check missing values.
+5. Check duplicate values.
+6. Split the dataset into training and testing sets.
+7. Train Logistic Regression model.
+8. Train Random Forest model.
+9. Evaluate the models using:
+   - Accuracy
+   - Precision
+   - Recall
+   - F1 Score
+   - ROC-AUC
+10. Compare both models.
+11. Display Feature Importance.
+
+## Results
+
+Logistic Regression Accuracy: 75.5%
+
+Random Forest Accuracy: 73.5%
+
+In this dataset, Logistic Regression performed slightly better than Random Forest.
+
+## Features
+
+- Data preprocessing
+- Data analysis
+- Two machine learning models
+- Performance evaluation
+- Accuracy comparison graph
+- Feature importance graph
+
+## Author
+
+Laxmi Prachande
